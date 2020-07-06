@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    
+    
+}
+
+form{
+    margin-left: 150px;
+    width: 300px;
+    height: 90% ;
+    border: 1px black solid;
+    border-radius: 0.4em;
+    font-weight: bold;
+    color: black;
+    font-family: sans-serif;
+
+}
+input{
+    width: 250px;
+    height: 40px;
+    border-radius: 0.4em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 5px solid black;
+    background-color: rgb(202, 156, 112);
+    outline: none;
+    font-weight: bold;
+    color: black;
+    font-family: sans-serif;
+}
+input[type = 'submit']{
+    background-color: rgb(202, 156, 112);
+    outline: none;
+    font-weight: bold;
+    color: black;
+    font-family: sans-serif;
+}
+select{
+width: 250px;
+height: 40px;
+border-radius: 0.4em;
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: 5px solid black;
+background-color: rgb(134, 46, 156);
+outline: none;
+color: blanchedalmond;
+font-family: sans-serif;
+
+}
+.container{
+    height: 90% ;
+    margin: 20px;
+    display: flex;
+}
+
+.right a{
+    text-decoration: none;
+}
+.container li {
+    list-style-type: none;
+}
