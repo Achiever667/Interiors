@@ -321,11 +321,12 @@ div.gallery img:hover{
     
     header{
         width:500px;
+       
         
     }
     nav{ 
         background: white;
-        position: fixed;
+        
         box-shadow: none;
     }
    .nav-item{
@@ -335,7 +336,7 @@ div.gallery img:hover{
        
    }
    .navbar-nav {
-       z-index: 2;
+       z-index: 1;
     position: absolute;
     text-align: center;
     left: -460px;
@@ -359,7 +360,7 @@ div.gallery img:hover{
    } */
    .nav-link{
        color: black;
-       
+       font-family: Times New Roman;
    
    }
    .navbar-nav{
@@ -368,6 +369,7 @@ div.gallery img:hover{
    }
     nav a  h1{
        color: peru;
+       font-family: Times New Roman;
        font-weight: bold;
        text-shadow: 13px 13px 20px  #f8f6f5,
        -10px -10px 20px  #faf6f4f1;
@@ -387,16 +389,14 @@ div.gallery img:hover{
 .navbar-toggler [type = 'button']{
    visibility: hidden;
 }
-.span{
-    width: 50px;
-    height: 50px;
+
+.span img{
+    
+    width: 30px;
+    height: 30px;
     border-radius: 10em;
-    background: peru;
-}
-.span .fas{
-    position: absolute;
-    top: 25px;
-    left: 255px;
+    color: peru;
+    z-index: 2;
 }
    .card .btn{
     background: linear-gradient(to top, rgba(243, 218, 187, 0.52), rgba(238, 178, 66, 0.73));
