@@ -83,9 +83,10 @@ classic.addEventListener('click', function classicCardD(){
 //     toggleButton.display = 'none';
 //  }
 //  }
+var body = document.getElementById('body');
  function myFunction() {
     // toggleButton.display = 'none';
-    var element = document.getElementById("myDIV");
+    var element = document.getElementById("navbarTogglerDemo02");
     element.classList.toggle("mystyle");
-    element.display = 'block';
+    // element.display = 'block';
  }
