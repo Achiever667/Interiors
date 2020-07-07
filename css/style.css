@@ -317,16 +317,16 @@ div.gallery img:hover{
     *{
         margin: 0;
         padding: 0;
-    
     }
+    
     header{
         width:100px;
         
     }
     nav{ 
+        background: white;
         position: fixed;
-        box-shadow:  13px 13px 20px  #ebdace,
-       -10px -10px 20px  #d6c5baf1;
+        box-shadow: none;
     }
    .nav-item{
        /* border-left: 1px solid black;
@@ -361,15 +361,18 @@ div.gallery img:hover{
        display: none;
    }
 #topCard{
+    padding: 20px;
     margin: 15px;
-    background: linear-gradient(to bottom, rgba(231, 169, 98, 0.52), rgba(146, 106, 32, 0.73));
+    /* background: linear-gradient(to bottom, rgba(231, 169, 98, 0.52), rgba(146, 106, 32, 0.73)); */
    
 }
 
 
   
    .card .btn{
-    border: 1px solid black;
+    background: linear-gradient(to top, rgba(243, 218, 187, 0.52), rgba(238, 178, 66, 0.73));
+    border:none;
+    border-radius: 2em;
 }
 .middle{
     display: none;
@@ -378,23 +381,33 @@ div.gallery img:hover{
 }
 #cardGaallery{
     margin: 15px;
+    background: linear-gradient(to bottom, rgba(251, 241, 228, 0.52), rgba(250, 237, 213, 0.73));
+
+}
+
+#cardFooter h1{
+    font-family: Times New Roman;
 }
 #cardFooter{
     margin: 15px;
 }
 .card-body li {
-    color: white;
+    
     list-style: none;    
 
 }
-.cardFooter li a{
-    color: white;
-    font-size: 1px;
-    font-family: fantasy;
+#cardFooter li a{
+    margin: 20px;
+    padding: 20px;
+    color: black;
+    font-size: 22px;
+    font-family: Times New Roman;
+}
+#cardFooter img{
+    margin: 20px;
    
     
-    
-}
+   
 
 /* .second{
     display: block;
@@ -438,6 +451,4 @@ div.gallery img:hover{
   box-sizing: border-box;
 }
  */
-
-
 }
