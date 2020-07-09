@@ -374,6 +374,18 @@ div.gallery img:hover{
     font-size: 12px;
     font-family: Arial;
   }
+  .modal input[type = 'password']:focus{
+      outline: none;
+      background: blanchedalmond;
+  }
+  .modal input[type = 'email']:focus{
+    outline: none;
+    background: blanchedalmond;
+}
+.modal input[type = 'submit']:focus{
+    outline: none;
+    background: blanchedalmond;
+}
   .modal p
   {
     color: blue;
@@ -437,7 +449,7 @@ div.gallery img:hover{
 #close{
     position: fixed;
     color: peru;
-    top: 40px;
+    top: 30px;
     left: 200px;
     
 }
