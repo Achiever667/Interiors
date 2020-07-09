@@ -330,7 +330,7 @@ div.gallery img:hover{
         box-shadow: none;
     }
     .navbar-nav .nav-link{
-        transition: 2s;
+        
         color: saddlebrown;
         /* margin-left: 35px; */
     }
@@ -359,7 +359,7 @@ div.gallery img:hover{
     box-sizing: border-box;
     font-size: 60px;
     font-family: Arial;
-    transition: 2s;
+    /* transition: 2s; */
     
   } 
   .modal
@@ -415,7 +415,7 @@ div.gallery img:hover{
        
    }
    
-   .navbar-nav   h1{
+   /* .navbar-nav   h1{
     padding: 20px;
     background: white;
     height: 95px;
@@ -425,7 +425,7 @@ div.gallery img:hover{
     text-shadow: 13px 13px 20px  #f8f6f5,
     -10px -10px 20px  #faf6f4f1;
     
-}
+} */
 
    .top{
       
@@ -449,9 +449,9 @@ div.gallery img:hover{
 #close{
     position: fixed;
     color: peru;
-    top: 30px;
+    top: 0px;
     left: 200px;
-    
+    z-index: 2;
 }
 .span img{
     width: 30px;
