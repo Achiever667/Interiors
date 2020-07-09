@@ -15,12 +15,17 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse"
      data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     </button>
-      <div class="span">
+    
+      <div class="span" id="spann">
   <img src="img/bars-solid.svg" width="20" height="20" data-toggle="collapse" data-target="#navbarTogglerDemo02"onclick="myFunction()"></i>
 </div>   
-
+<div class="container-fluid" id="navbarTogglerDemo02">
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
       <ul class="navbar-nav">
+        <span  class="close" 
+        id="close" data-dismiss="container-fluid" onclick="displayNone()">X</span>
+
+        <h1>Urchett</h1>
         <li class="nav-item active">
           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
@@ -35,13 +40,14 @@
          </li>
          <li class="nav-item">
           <a class=" nav-link" href="#" type="button" data-toggle="modal" 
-          data-target="#myModal" onclick="myFunction()">Accounts?</a>
+          data-target="#myModal">Accounts?</a>
         </li>
-        
+      </ul>
+      </div>
       
         <!-- The Modal -->
         <div class="modal" id="myModal">
-          <div class="modal-dialog">
+          <div class="modal-dialog modal-sm">
             <div class="modal-content">
             
               <!-- Modal Header -->
@@ -67,10 +73,7 @@
               </div>
 
               <!-- Modal footer  -->
-              <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-              </div>
-              
+           
             </div>
           </div>
         </div>
@@ -100,14 +103,13 @@
            </div>
               
               <!-- Modal footer -->
-              <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-              </div>
+            
               
             </div>
           </div>
         </div>
       </ul>
+    </div>
     </div>
   </nav>
   </header>
@@ -127,7 +129,7 @@
         <img src="img/img-1.jpg" alt="" width="700" class="img-fluid ml-5 mt-4" id="img" style="border-radius: 0.5em;">
     </div>   
     <div class="right text-center">
-        <h1> Urchett Interiors</h1>
+        <h3> Urchett Interiors</h3>
         <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
              Dolores doloremque obcaecati, eligendi ducimus, nisi, 
              veniam et alias error maxime facere quaerat perferendis? Magni cum explicabo ipsa,
@@ -137,13 +139,16 @@
 </div>
 </div>
 <div class="card" id="topCard">
+  <div class="card-image">
+    <img src="img/img-1.jpg" class="img-fluid">
+  </div>
   <div class="card-body ">
       <h1> Urchett Interiors</h1>
       <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
            Dolores doloremque obcaecati, eligendi ducimus, nisi, 
            veniam et alias error maxime facere quaerat perferendis? Magni cum explicabo ipsa,
            velit sunt minima porro!</p>
-<div class="text-right">
+<div class="text-center">
   <button class="btn btn-lg ">Get Started</button>
 
 </div>
@@ -279,7 +284,7 @@
 
              <li><a href="#"> <img src="img/twitter-brands.svg" alt="" width="30" height="30">twitter</a></li>
 
-             <li><a href="#"> <img src="img/whatsapp-brands.svg" alt="" width="30" height="30">090848567737</a></li>
+             <li><a href="#" id="whatsapp"> <img src="img/whatsapp-brands.svg" alt="" width="30" height="30" >090848567737</a></li>
 
           <div class="input-group flex-nowrap">
             <input type="text" class="form-control" placeholder="Your Email............." aria-label="Username" aria-describedby="addon-wrapping">

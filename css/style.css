@@ -329,31 +329,58 @@ div.gallery img:hover{
         
         box-shadow: none;
     }
+    .navbar-nav .nav-link{
+        transition: 2s;
+        color: saddlebrown;
+        /* margin-left: 35px; */
+    }
    .nav-item{
        /* border-left: 1px solid black; */
        margin-top: 20px; 
-       font-size: 16px;
+       font-size: 25px;
+       color: peru;
+       border-bottom: 1px black solid;
+       
        
    }
    .navbar-nav {
-       z-index: 1;
-    position: absolute;
+    z-index: 1;
+    position: fixed;
     text-align: center;
-    left: -460px;
-    top: 90px;
+    left: -560px;
+    top: -30px;
     width:300px;
-    height:50vh;
+    height:100vh;
     margin: 30px;
-    background-color:rgb(255, 245, 235);
-    color: black;
-    font-size: 25px;
+    opacity: 4;
+    background-color:rgb(245, 245, 245);
+    color: peru;
+    font-size: 45px;
     box-sizing: border-box;
-    border: 1px solid black;
-    border-radius: 0.6em;
-    font-size: 50px;
-    font-family: sans-serif;
+    font-size: 60px;
+    font-family: Arial;
+    transition: 2s;
     
   } 
+  .modal
+  {
+    color: black;
+    font-size: 12px;
+    font-family: Arial;
+  }
+  .modal input
+  {
+    color: rgb(141, 136, 132);
+    font-size: 12px;
+    font-family: Arial;
+  }
+  .modal p
+  {
+    color: blue;
+    font-size: 14px;
+    font-family: none;
+    text-align: left;
+  }
    /* header{
        position: fixed;
    
@@ -376,10 +403,28 @@ div.gallery img:hover{
        
    }
    
+   .navbar-nav   h1{
+    padding: 20px;
+    background: white;
+    height: 95px;
+    color: peru;
+    font-family: Times New Roman;
+    font-weight: bold;
+    text-shadow: 13px 13px 20px  #f8f6f5,
+    -10px -10px 20px  #faf6f4f1;
+    
+}
+
    .top{
       
        display: none;
    }
+   #topCard .card-body h3{
+       font-size: 30px;
+        font-weight: bold;
+        font-family: Times New Roman;
+    }
+
 #topCard{
     padding: 20px;
     margin: 15px;
@@ -389,9 +434,14 @@ div.gallery img:hover{
 .navbar-toggler [type = 'button']{
    visibility: hidden;
 }
-
-.span img{
+#close{
+    position: fixed;
+    color: peru;
+    top: 40px;
+    left: 200px;
     
+}
+.span img{
     width: 30px;
     height: 30px;
     border-radius: 10em;
@@ -402,6 +452,8 @@ div.gallery img:hover{
     background: linear-gradient(to top, rgba(243, 218, 187, 0.52), rgba(238, 178, 66, 0.73));
     border:none;
     border-radius: 2em;
+    margin: 10px;
+    font-family: serif;
 }
 .middle{
     display: none;
@@ -435,7 +487,12 @@ div.gallery img:hover{
 #cardFooter img{
     margin: 20px;
    
-    
+}
+
+#cardFooter li #whatsapp {
+    font-size: 16px;
+    font-weight: bold;
+}
    
 
 /* .second{
